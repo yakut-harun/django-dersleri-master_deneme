@@ -5,10 +5,10 @@ app_name = "accounts"
 
 urlpatterns = [
 
-    path(r'^login/$', login_view, name="login"),
+    path('login/', login_view, name="login"),
 
-    path(r'^register/$', register_view, name="register"),
+    path('register/', register_view, name="register"),
 
-    path(r'^logout/$', logout_view, name="logout"),
+    path('logout/', logout_view, name="logout"),
 
 ]
